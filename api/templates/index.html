@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Mariia's Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f8f8;
+        }
+        header {
+            background-color: #7f8c8d; 
+            color: white;
+            text-align: center;
+            padding: 1em;
+        }
+        section {
+            margin: 2em;
+            padding: 2em;
+            background-color: white;
+        }
+        img {
+            width: 500px;
+            height: 333px;
+            display: block;
+            margin: 0 auto;
+        }
+        a {
+            display: block;
+            color: #7f8c8d;
+            text-align: left;
+            margin: 1em 0;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        footer {
+            background-color: #7f8c8d; 
+            color: white;
+            text-align: center;
+            padding: 1em;
+            position: fixed;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Hello World! Welcom to SSE Lab Part 2</h1>
+    </header>
+    <section>
+        <h2>Building and deploying a Flask application</h2>
+        <!--<img src="photo1.jpeg" alt="Software Engineering Image">*/-->
+        <a href="https://www.imperial.ac.uk/computing/current-students/courses/70085/">A link to the module webpage</a>
+        <p>
+            My name is Mariia and my background is in design and architecture. 
+            I have also been passionate about technology and its innovative applications. 
+            I am excited to expand my knowledge of computing on this course.
+        </p>
+    </section>
+    <footer>
+        <p>Thank you for visiting my page!</p>
+    </footer>
+
+    <form action="/submit" method="post">
+        <label for="namefield">Name:</label>
+        <input type="text" id="namefield" name="name">
+        <label for="agefield">Age:</label>
+        <input type="number" id="agefield" name="age">
+        <input type="submit" value="Submit">
+        </form>
+        
+</body>
+</html>
